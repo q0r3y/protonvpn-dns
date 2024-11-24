@@ -21,7 +21,7 @@ jobs:
             recordId
             zoneId
         env:
-          authToken: ${{ secrets.authToken }}
-          cloudflareEmail: ${{ secrets.cloudflareEmail }}
-          recordId: ${{ secrets.recordId }}
-          zoneId: ${{ secrets.zoneId }}
+          authToken: ${{ secrets.AUTHTOKEN }}
+          cloudflareEmail: ${{ secrets.CLOUDFLAREEMAIL }}
+          recordId: ${{ secrets.RECORDID }}
+          zoneId: ${{ secrets.ZONEID }}
